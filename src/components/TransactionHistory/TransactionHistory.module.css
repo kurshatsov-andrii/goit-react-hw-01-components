@@ -15,6 +15,7 @@
     width: 100%;
     background: #00bcd5;
     color: #fff;
+    text-transform: uppercase;
 }
 
 .transactionHistory tbody {
@@ -63,4 +64,10 @@
 
 .transactionHistory tbody tr:nth-child(2n) {
     background: #ecf1f4;
+}
+
+@media screen and (max-width: 767px) {
+    .transactionHistory {
+        width: 300px;
+    }
 }
